@@ -8,17 +8,155 @@
     <title><?php echo CONFIG["APP_NAME"]?></title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <a href="/home"><li> Home </li></a>
-            <a href="/document"><li> Document </li></a>
-            <a href="/our"><li> Our </li></a>
-            <a href="/login"><li> Log in  </li></a>
-        </ul>
+    <!-- DESIGN ASPECT TO REPLACE WITH JS + PHP :) -->
+    <div id="header">
+    <div id="head">
+        <div id="col-option-all">
+            <img src="/images/png/cirucule-preload.png" width="100">
+            <img src="/images/png/logo.png" width="100">
+        </div>
+        <div id="col-option-search">
+            <div class="search">
+                <input type="search" id="search" placeholder="Buscar">
+                <button type="submit" class="btn-seach"></button>
+            </div>
+            <div class="sugerence" hidden>
+                <ul></ul>
+            </div>
+        </div>
+        <div id="col-option-manager">
+            <img src="/images/png/cirucule-preload.png" width="100">
+            <img src="/images/png/cirucule-preload.png" width="100">
+            <img src="/images/png/cirucule-preload.png" width="100">
+            <img src="/images/png/cirucule-preload.png" width="100">
 
-    </nav>
-    
-    
-    
+        </div>
+
+    </div>
+    <div id="menu-lateral">
+        <div class="bloque">
+            <ul>
+                <a href="/home">
+                    <li>Principal</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+            </ul>
+        </div>
+        <div class="bloque">
+            <ul>
+                <a href="/home">
+                    <li>Principal</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+            </ul>
+        </div>
+        <div class="bloque">
+            <ul>
+                <a href="/home">
+                    <li>Principal</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+            </ul>
+        </div>
+        <div class="bloque">
+            <ul>
+                <a href="/home">
+                    <li>Principal</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+            </ul>
+        </div>
+        <div class="bloque">
+            <ul>
+                <a href="/home">
+                    <li>Principal</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+            </ul>
+        </div>
+
+    </div>
+    <div id="menu-lateral-min">
+    <div class="bloque">
+            <ul>
+                <a href="/home">
+                    <li>Principal</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+                <a href="/">
+                    <li>Option</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+    <div id="list-category">
+        <ul>
+            <li><a href="/">A</a></li>
+            <li><a href="/">A</a></li>
+            <li><a href="/">A</a></li>
+            <li><a href="/">A</a></li>
+            <li><a href="/">A</a></li>
+            <li><a href="/">A</a></li>
+            <li><a href="/">A</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <div id="list-video">
+        <div class="container">
+            <img src="/images/png/background-loading.png" width="40%">
+            <img src="/images/png/background-loading.png" width="40%">
+            <img src="/images/png/background-loading.png" width="40%">
+            <img src="/images/png/background-loading.png" width="40%">
+            <img src="/images/png/background-loading.png" width="40%">
+            <img src="/images/png/background-loading.png" width="40%">
+        </div>
+    </div>
 
 </body>
