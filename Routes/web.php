@@ -21,8 +21,5 @@ return [
      * [Home::class,function,param1, parman2...]
      * 
      */
-    "home"=>[Home::class],
-    "our"=>[Welcome::class],
-    "document"=>[Document::class],
-    "login"=>[Login::class]
+    "home"=>[Home::class]
 ];
