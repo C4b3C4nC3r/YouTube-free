@@ -1,0 +1,14 @@
+#this name app
+AUTHOR="Livington Lenin Lopez Cruz"
+APP_NAME = "Inspir≈360º"
+AGE="2022"
+
+DATABASE_NAME="ejemplo"
+DATABASE_HOST="127.0.0.1"
+DATABASE_PASSWORD=
+DATABASE_USER="root"
+DATABASE_CHARSET="utf8mb4"
+
+LANG = "spanish"
+
+VERSION= "1.0"
