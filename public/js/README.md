@@ -1,0 +1,1 @@
+This .js alone simple
