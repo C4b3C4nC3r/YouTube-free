@@ -7,38 +7,52 @@
     <link rel="stylesheet" href="/css/style.css">
     <title><?php echo CONFIG["APP_NAME"]?></title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="/img/logo/logo128x128.ico" type="image/x-icon">
 </head>
 <body>
-
-<div style="display: flex;">
-<div style="width:20%;height:auto;background:blue">
-    
-    
-
-</div>
-<nav class="navbar">
-    
-    <div class="d-flex justify-content-center">
-        <nav id="buscador">
-            <div class="container-fluid">
-                <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
-        <div>Micro</div>
-    </div>
+   
+<div class="d-flex ">
+  <div class="p-2 ">
+        <button type="button" class="btn btn-outline-dark">
+            <img src="/img/btn/menu128x128.svg">
+        </button>  
+        <a href="/">
+            <img width="20%" src="/img/logo/logo128x128.png" alt="">
+        </a>
+        
+        
+  </div>
+  <!-- Vide Interfaz -->
+  <div class="p-2 flex-grow-1">
+      <div class="d-flex justify-content-center">
+        <input type="search" placeholder="Buscar ...">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+            <img src="/img/btn/lupa128x128.svg">
+        </button>
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+            <img src="/img/btn/mic128x128.svg">
+        </button>
+      </div>
+  </div>
+  <!-- User Interface -->
+  <div class="p-2">
     <div class="d-flex justify-content-end">
-        <div>crear</div>
-        <div>Service</div>
-        <div>Notif</div>
-        <div>User</div>
+        <button type="button" class="btn btn-outline-dark">
+            <img src="/img/btn/crear128x128.svg">
+        </button>  
+        <button type="button" class="btn btn-outline-dark">
+            <img src="/img/btn/apps128x128.svg">
+        </button>  
+        <button type="button" class="btn btn-outline-dark">
+            <img src="/img/btn/notif128x128.svg">
+        </button>      
+        <a href="/">
+            <img width="35%" src="/img/preload/preload-user128x128.png" alt="">
+        </a>
+          
     </div>
-</nav>
+  </div>
 </div>
-
-
 
 </body>
 
